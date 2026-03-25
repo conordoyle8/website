@@ -1,6 +1,6 @@
 /* eslint-disable import/prefer-default-export */
 /* eslint-disable no-console */
-import { NextResponse } from 'next/server';
+import { NextResponse } from 'next/server'; 
 
 import { checkCookie, getReferer } from 'app/actions';
 import { CONTENT_ROUTES } from 'constants/content';
